@@ -1,8 +1,8 @@
 body {
 
-    font-family: 'Open Sans', sans-serif;
-
-    background: rgb(218, 214, 214);
+    
+    margin: 50px;
+  
 }
 
 
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    padding: 20px;
 
 }
 
@@ -36,23 +36,56 @@ body {
 
 .menu ul li a{
 
-    
+    color: white;
     text-decoration: none;
     margin-left: 32px;
 
 }
 
 .caja1 {
-
-    background-image: url(../img/FONDO1.jpg);
-    height: 500px;
-    border: 1px solid red;
+   
+    background: url(../img/FONDO1.jpg) no-repeat;
+    background-size: 100%;
+    height: 600px;
+    
 
 }
+
+.caja2 {
+   
+   
+   
+    
+
+}
+
 
 .contenido {
     text-align: center;
     size: bold;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+    
+    
 }
 
+.contenido2 {
+
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+.cuadro{
+    border: 1px solid red;
+}
+
+.cuadro img{
+
+    height: 200px;
+    width: 200px;
+}
+
+.texto {
+  background: darkblue;
+}

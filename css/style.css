@@ -1,0 +1,58 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+    background: rgb(218, 214, 214);
+}
+
+
+.encabezado {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.encabezado img {
+
+    width: 70px;
+    border-radius: 45px;
+}
+
+.menu ul {
+
+    display: flex;
+   
+}
+
+.menu ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    
+
+}
+
+.menu ul li a{
+
+    
+    text-decoration: none;
+    margin-left: 32px;
+
+}
+
+.caja1 {
+
+    background-image: url(../img/FONDO1.jpg);
+    height: 500px;
+    border: 1px solid red;
+
+}
+
+.contenido {
+    text-align: center;
+    size: bold;
+    color: whitesmoke;
+}
+

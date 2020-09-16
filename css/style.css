@@ -1,18 +1,13 @@
 body {
-
-    
-    margin: 50px;
-  
+    margin: 50px;  
 }
 
 
 .encabezado {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
 }
 
 .encabezado img {
@@ -42,6 +37,13 @@ body {
 
 }
 
+.contenido {
+
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
 .caja1 {
    
     background: url(../img/FONDO1.jpg) no-repeat;
@@ -51,41 +53,136 @@ body {
 
 }
 
-.caja2 {
+
+
+
+.caja2{
    
-   
-   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
-
-}
-
-
-.contenido {
+    background-color: rgb(170, 169, 169);
     text-align: center;
-    size: bold;
-    color: rgb(255, 255, 255);
-    
     
 }
+.caja2.1{
+    
+    
+    margin: 10px;
+    display: grid;
+    height: 600px;
+    grid-template-rows: 50% 50%;
+    box-shadow: 3px 3px 15px gray;
+}
 
-.contenido2 {
 
-    display: flex;
-    justify-content: space-evenly;
+.caja2img img{
+    
    
-
-}
-
-.cuadro{
-    border: 1px solid red;
-}
-
-.cuadro img{
-
     height: 200px;
-    width: 200px;
+    width: 100%; 
+    object-fit: cover;
 }
 
-.texto {
-  background: darkblue;
+.caja2p{
+    background: white;
+    display: grid;
+    align-content: center;
+}
+
+
+
+
+.caja3{
+    text-align: center;
+}
+.caja3img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caja3p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.caja4{
+    
+    background-color: rgb(170, 169, 169);
+    text-align: center;
+    display: grid; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.caja4 h1{
+    margin-bottom: 0%;
+}
+.caja4 input{
+    margin: 10px;
+    padding: 20px;
+    background: rgb(209, 206, 206);
+    box-sizing: border-box;
+}
+.caja4 button{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    size: 15px;
+}
+
+
+
+
+
+
+.caja5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.caja5I{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.caja5I i{
+    color: white;
+    background: rgb(68, 68, 68);
+    margin-right: 12px;
+    width: 16px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+.perfil{
+    background: teal;
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+}
+
+.perfil p {
+
+    font-weight: bold;
+}
+
+.perfil img {
+    
+    height: 40px;
+    border-radius: 45px;
+    margin-right: 10px;
 }
